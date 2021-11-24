@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313"
+baseURL = "/"
 # title = "Hugo Themes"
 author = "Oleh Andrushko"
 copyright = "Copyright © 2021 Oleh Andrushko"
@@ -34,20 +34,20 @@ series = "series"
 [privacy]
 
   [privacy.vimeo]
-    disabled = false
+    disabled = true
     simple = true
 
   [privacy.twitter]
-    disabled = false
+    disabled = true
     enableDNT = true
     simple = true
 
   [privacy.instagram]
-    disabled = false
+    disabled = true
     simple = true
 
   [privacy.youtube]
-    disabled = false
+    disabled = true
     privacyEnhanced = true
 
 [services]

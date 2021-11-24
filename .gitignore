@@ -27,3 +27,5 @@ _testmain.go
 /public
 /themes
 .DS_Store
+
+.vercel
