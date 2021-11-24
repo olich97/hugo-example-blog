@@ -39,7 +39,7 @@ jobs:
 
     # Builds the site using Hugo
     - name: Build
-      run: cp go.default.mod go.mod && hugo -v --config=go.toml,config.toml
+      run: cp go.default.mod go.mod && hugo --gc --minify --config=go.toml,config.toml
 
      # Push our generated Hugo site to Vercel
     - name: Deploy to Vercel
