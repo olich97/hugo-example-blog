@@ -32,9 +32,9 @@ jobs:
 
     # Install Hugo (specific version)
     - name: Install Hugo
-       uses: peaceiris/actions-hugo@v2
-       with: 
-         hugo-version: '0.80.0'
+      uses: peaceiris/actions-hugo@v2
+      with: 
+        hugo-version: '0.80.0'
 
     # Builds the site using Hugo
     - name: Build
